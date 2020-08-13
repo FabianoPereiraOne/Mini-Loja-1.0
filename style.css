@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
+.menu{
+    background-color: #0480AA;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    height: 60px;
+    border-bottom: 1px solid black;
+}
+.menu div{
+    display: inline-block;
+    margin-top: 5px;
+}
+.carrinho img{
+    height: 40px;
+    width: 40px;
+}
+.item1{
+    margin-left: 20px;
+    margin-right: 10px;
+    position: relative;
+    top: -10px;
+    color: white;
+    text-shadow: 1px 1px 0px black;
+}
+.item2{
+    margin-right: 10px;
+    position: relative;
+    top: -10px;
+    color: white;
+    text-shadow: 1px 1px 0px black;
+}
+.item3{
+    position: relative;
+    top: -10px;
+    color: white;
+    text-shadow: 1px 1px 0px black;
+}
+div#titulo{
+    position: relative;
+    left: 350px;
+    top: -3px;
+    font-family: "Titillium", sans-serif;
+    color: white;
+    text-shadow: 1px 1px 0px black;
+    font-size: 30pt;
+}
+
+/* Vitrine */
+section#corpo-vitrine{
+    position: relative;
+    left: 500px;
+    top: 70px;
+}
+.vitrine{
+    display: inline-block;
+    margin-right: 10px;
+}
+.vitrine img{
+    height: 150px;
+}
+.vitrine input{
+    position: relative;
+    left: 20px;
+    background-color: blue;
+    padding: 5px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 5px 0px rgb(0, 102, 255);
+    cursor: pointer;
+}
+.vitrine input:hover{
+    background-color: green;
+}
+.vitrine input:active{
+    box-shadow: none;
+    position: relative;
+    top: 5px;
+}
+.vitrine label{
+    position: relative;
+    left: 50px;
+}
+/* pagamento*/
+.pagamento input{
+    position: relative;
+    background-color: green;
+    border: none;
+    padding: 10px;
+    color: white;
+    font-size: 15pt;
+    border-radius: 5px;
+    top: 170px;
+    left: 650px;
+    cursor: pointer;
+}

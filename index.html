@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Virtual</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header class="menu">
+       <div class="carrinho"><img src="imagens/icone_carrinho.png" alt=""></div>
+       <div class="item1">Mouse: <label id="mouse" for="" >0</label></div>
+       <div class="item2">Teclado: <label id="teclado" for="">0</label></div>
+       <div class="item3">headset: <label id="headset" for="">0</label></div>
+       <div id="titulo">LOJA VIRTUAL</div>
+    </header>
+    <section id="corpo-vitrine">
+        <div class= "vitrine" id="1">
+            <img src="imagens/mouse.png" alt="produto1">
+            <br><br>
+            <label for="">R$: 199.90</label>
+            <br><br>
+            <input type="button" onclick="compra(1)" value="Adicionar ao carrinho">
+            
+        </div>
+        <div class= "vitrine" id="2">
+            <img src="imagens/teclado.png" alt="produto2">
+            <br><br>
+            <label for="">R$: 69.90</label>
+            <br><br>
+            <input type="button" onclick="compra(2)" value="Adicionar ao carrinho">
+            
+        </div>
+        <div class= "vitrine" id="3">
+            <img src="imagens/headset.png" alt="produto3">
+            <br><br>
+            <label for="">R$: 326.50</label>
+            <br><br>
+            <input type="button" onclick="compra(3)" value="Adicionar ao carrinho">
+        </div>
+    </section>
+    <section class="pagamento">
+            <a href="pagamento.html"><input type="button" value="FECHAR COMPRA"></a>
+    </section>
+</body>
+</html>
